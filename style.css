@@ -1,0 +1,113 @@
+body {
+   font-size:20px;
+   line-height:1.6;
+   font-family:superclarendon;
+}
+
+h1 {
+	font-family:superclarendon;
+    color:rgb(252,157,154);
+	
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(92,167,186);
+}
+
+
+p {
+	color:rgb(131,175,155);
+  font-size: 18px;
+}
+
+ul {
+	color:rgb(254,67,101);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(252.157,154);
+}
+
+a:hover {
+	color: rgb(255,66,93);
+}
+
+div {
+  border-radius:5px;
+  background: white;  
+  padding: 30px;                          
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+ 
+}
+                     
+
+
+
+/* Custom design with class*/
+
+.container {
+   width: 700px;
+   margin: 40px auto;
+   background-color: #ADD8E6;
+   text-align: center;
+
+}
+
+.card-whtie {
+  background-color: white
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  
+}
+
+.btn-blue {
+  background-color: #ADD8E6;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: pink
+}
+
+.list-inline li {
+   display: inline;
+   padding: 10px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px: 
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px: 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
